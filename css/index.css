@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     font-family: Scary-Font;
-    background-color: #EDEDED;
+    background-image: linear-gradient(to bottom, #171717, #EDEDED);
 }
 
 /* header-div styles */
