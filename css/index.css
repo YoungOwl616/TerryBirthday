@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Scary-Font;
+    src: url(../gypsy-curse.regular.ttf);
+}
+
+body {
+    margin: 0px;
+    font-family: Scary-Font;
+    background-color: #EDEDED;
+}
+
+/* header-div styles */
+
+#header-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-img {
+    width: 350px;
+    border-radius: 50%;
+}
+
+#header-h1 {
+    font-size: 60px;
+    color: #DA0037;
+    text-shadow: 0px 0px 5px black;
+}
+
+#header-h2 {
+    font-size: 40px;
+    background-color: #171717;
+    color: #EDEDED;
+    padding: 9px 20px;
+    border-radius: 10px;
+    margin: 30px 0px 10px 0px;
+}
+
+#header-h2:hover {
+    background-color: #DA0037;
+    color: #171717;
+}
+
+#header-h3 {
+    font-size: 40px;
+    background-color: #171717;
+    color: #EDEDED;
+    padding: 9px 20px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+#header-h3:hover {
+    background-color: #DA0037;
+    color: #171717;
+}
+
+/* gift-section styles */
+
+#red-3 {
+    color: #DA0037;
+}
+
+#gift-section {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.gift-bag {
+    background-image: url(../images/terrys-gift-bag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    border-radius: 7px;
+    margin-bottom: 40px;
+}
+
+#gift-h2 {
+    font-size: 40px;
+    color: #171717;
+}
+
+#gift-h3 {
+    font-size: 40px;
+    color: #171717;
+}
+
+.gift-bag-para {
+    font-size : 30px;
+    background-color: #171717;
+    color: #EDEDED;
+    padding: 9px 20px;
+    border-radius: 10px;
+    margin: 30px 0px 10px 0px;
+}
+
+.gift-bag-para:hover {
+    background-color: #DA0037;
+    color: #171717;
+}
+
+#gift-bag-1:hover {
+    background-image: url(https://media.giphy.com/media/LMiKBYcE5PI01Eow0Z/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gift-bag-2:hover {
+    background-image: url(https://media.giphy.com/media/RIHJGMww0p2IZng2l9/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gift-bag-3:hover {
+    background-image: url(https://media.giphy.com/media/3o7aTstxNcs4jXklsQ/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* footer-div styles */
+#footer-div {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #171717;
+    color: #EDEDED;
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: 0px;
+}
+
+#footer-para {
+    margin: 0px;
+    font-size: 25px;
+}
+
+a {
+    color: #DA0037;
+}
